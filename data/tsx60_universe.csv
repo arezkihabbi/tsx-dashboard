@@ -1,0 +1,61 @@
+﻿sector;ticker;name
+Commerce de détail;ATD.TO;Alimentation Couche-Tard
+Commerce de détail;CTC-A.TO;Canadian Tire Ltd
+Commerce de détail;DOL.TO;Dollarama Inc
+Commerce de détail;WN.TO;George Weston Ltd
+Commerce de détail;L.TO;Loblaws Companies Limited
+Commerce de détail;MRU.TO;Metro Inc
+Communications;BCE.TO;BCE Inc
+Communications;RCI-B.TO;Rogers Communications Inc
+Communications;T.TO;Telus Corp
+Finance;BMO.TO;Bank of Montreal
+Finance;BNS.TO;Bank of Nova Scotia
+Finance;BAM.TO;Brookfield Asset Management Ltd
+Finance;BN.TO;Brookfield Corporation
+Finance;CAR-UN.TO;Canadian Apartment Properties REIT
+Finance;CM.TO;Canadian Imperial Bank of Commerce
+Finance;FSV.TO;FirstService Corp
+Finance;IFC.TO;Intact Financial Corporation
+Finance;MFC.TO;Manulife Financial Corp
+Finance;NA.TO;National Bank of Canada
+Finance;POW.TO;Power Corp of Canada
+Finance;RY.TO;Royal Bank of Canada
+Finance;SLF.TO;Sun Life Financial Inc
+Finance;TD.TO;Toronto-Dominion Bank
+Industries de transformation;CCL-B.TO;CCL Industries Inc
+Industries de transformation;NTR.TO;Nutrien Ltd
+Minéraux non-énergétiques;AEM.TO;Agnico Eagle Mines Ltd
+Minéraux non-énergétiques;ABX.TO;Barrick Mining Corporation
+Minéraux non-énergétiques;CCO.TO;Cameco Corp
+Minéraux non-énergétiques;FM.TO;First Quantum Minerals
+Minéraux non-énergétiques;FNV.TO;Franco Nevada Corp
+Minéraux non-énergétiques;K.TO;Kinross Gold Corp
+Minéraux non-énergétiques;TECK-B.TO;Teck Resources Limited
+Minéraux non-énergétiques;WPM.TO;Wheaton Precious Metals Corp
+Minéraux énergétiques;CNQ.TO;Canadian Natural Resources Ltd
+Minéraux énergétiques;CVE.TO;Cenovus Energy Inc
+Minéraux énergétiques;IMO.TO;Imperial Oil
+Minéraux énergétiques;SU.TO;Suncor Energy Inc
+Minéraux énergétiques;TOU.TO;Tourmaline Oil Corp
+Producteurs-fabricants;MG.TO;Magna International Inc
+Produits de consommation non durables;GIL.TO;Gildan Activewear Inc
+Produits de consommation non durables;SAP.TO;Saputo Group Inc
+Services Commerciaux;CAE.TO;CAE Inc
+Services Commerciaux;SHOP.TO;Shopify Inc
+Services Industriels;ENB.TO;Enbridge Inc
+Services Industriels;PPL.TO;Pembina Pipeline Corporation
+Services Industriels;TRP.TO;TC Energy Corporation
+Services Industriels;WSP.TO;WSP Global Inc
+Services Industriels;WCN.TO;Waste Connections Inc (CA)
+Services au consommateur;QSR.TO;Restaurant Brands Intl Inc
+Services publics;AQN.TO;Algonquin Power & Utilities Corp
+Services publics;BIP-UN.TO;Brookfield Infrastructure Partners L.P.
+Services publics;EMA.TO;Emera Inc
+Services publics;FTS.TO;Fortis Inc
+Services publics;H.TO;Hydro One Ltd
+Services technologiques;GIB-A.TO;CGI Inc
+Services technologiques;CSU.TO;Constellation Software Inc
+Services technologiques;OTEX.TO;Open Text Co
+Services technologiques;TRI.TO;Thomson-Reuters Corp
+Transports;CNR.TO;Canadian National Railways Co
+Transports;CP.TO;Canadian Pac Kansas City Ltd

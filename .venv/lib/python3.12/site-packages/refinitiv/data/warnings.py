@@ -1,0 +1,2 @@
+class UnstableAPIWarning(Warning):
+    pass

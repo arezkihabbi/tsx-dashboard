@@ -1,0 +1,26 @@
+from enum import Enum, auto
+
+
+class APIType(Enum):
+    CFS = auto()
+    CHAINS = auto()
+    CURVES_AND_SURFACES = auto()
+    CUSTOM_INSTRUMENTS = auto()
+    DATA_GRID = auto()
+    DATA_STORE = auto()
+    DISCOVERY = auto()
+    ESG = auto()
+    ESTIMATES = auto()
+    FILINGS = auto()
+    FINANCIAL_CONTRACTS = auto()
+    HISTORICAL_PRICING = auto()
+    NEWS = auto()
+    OWNERSHIP = auto()
+    PRICING = auto()
+    STREAMING_BENCHMARK = auto()
+    STREAMING_CUSTOM = auto()
+    STREAMING_CUSTOM_INSTRUMENTS = auto()
+    STREAMING_FINANCIAL_CONTRACTS = auto()
+    STREAMING_PRICING = auto()
+    STREAMING_TRADING = auto()
+    DATES_AND_CALENDARS = auto()

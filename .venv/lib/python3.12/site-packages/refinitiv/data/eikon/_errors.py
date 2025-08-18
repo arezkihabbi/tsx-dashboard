@@ -1,0 +1,2 @@
+class DefaultSessionError(Exception):
+    pass

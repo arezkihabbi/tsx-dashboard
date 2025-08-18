@@ -1,0 +1,60 @@
+from typing import TYPE_CHECKING, Optional
+
+from ..._content_data import Data
+from ..._content_provider_layer import ContentUsageLoggerMixin
+from ...._content_type import ContentType
+from ...._tools import validate_types, try_copy_to_list
+from ....delivery._data._data_provider import DataProviderLayer, Response
+
+if TYPE_CHECKING:
+    from ...._types import ExtendedParams, StrStrings
+
+
+class Definition(
+    ContentUsageLoggerMixin[Response[Data]],
+    DataProviderLayer[Response[Data]],
+):
+    """
+    This class describe parameters to retrieve the holdings information for each fund investor companies.
+
+    Parameters
+    ----------
+    universe: str, list of str
+        The Universe parameter allows the user to define the companies for which the content is returned.
+
+    limit: int, optional
+        The limit parameter is used for paging. It allows users to select the number of records to be returned.
+        Default page size is 100 or 20 (depending on the operation).
+
+    use_field_names_in_headers: bool, optional
+        Return field name as column headers for data instead of title
+
+    extended_params : ExtendedParams, optional
+        If necessary other parameters.
+
+    Examples
+    --------
+    >>> from refinitiv.data.content import ownership
+    >>> definition = ownership.fund.holdings.Definition("LP40189339")
+    >>> response = definition.get_data()
+    """
+
+    _USAGE_CLS_NAME = "Ownership.Fund.HoldingsDefinition"
+
+    def __init__(
+        self,
+        universe: "StrStrings",
+        limit: Optional[int] = None,
+        use_field_names_in_headers: bool = False,
+        extended_params: "ExtendedParams" = None,
+    ):
+        validate_types(limit, [int, type(None)], "limit")
+        universe = try_copy_to_list(universe)
+
+        super().__init__(
+            ContentType.OWNERSHIP_FUND_HOLDINGS,
+            universe=universe,
+            limit=limit,
+            use_field_names_in_headers=use_field_names_in_headers,
+            extended_params=extended_params,
+        )
