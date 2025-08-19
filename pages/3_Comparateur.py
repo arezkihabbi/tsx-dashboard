@@ -24,7 +24,7 @@ section[data-testid="stSidebar"] nav { display: none !important; }
 # 2) Sidebar custom + logo + liens
 # =========================
 with st.sidebar:
-    st.image("assets/logo.png", use_column_width=True)
+    st.image("assets/logo.png", use_container_width=True)
     st.markdown("---")
     st.page_link("app.py",                  label="Accueil",       icon="🏠")
     st.page_link("pages/1_Screener.py",     label="Screener",      icon="🔍")
