@@ -39,7 +39,7 @@ st.markdown(
 
 # 3) Sidebar personnalisée
 with st.sidebar:
-    st.image("assets/logo.png", use_container_width=True)
+    st.image("assets/logo.png", use_column_width=True)
     st.page_link("app.py",                  label="Accueil",       icon="🏠")
     st.page_link("pages/1_Screener.py",     label="Screener",      icon="🔎")
     st.page_link("pages/2_Fiche_Valeur.py", label="Action du tsx", icon="📰")
